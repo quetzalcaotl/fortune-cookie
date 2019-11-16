@@ -1,0 +1,22 @@
+{
+  "name": "mvp",
+  "version": "1.0.0",
+  "description": "Fortune Cookies",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
+  },
+  "author": "David José Mosher",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.7.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
